@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+namespace DO;
 
-namespace DO
+public record class Customer(
+    int ID
+string CustomerName
+string EmailAddress
+string TelephoneNumber)
 {
-    internal class Customer
-    {
-    }
 }
+}
+
+
+
+
